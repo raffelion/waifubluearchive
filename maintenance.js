@@ -1,7 +1,7 @@
 // maintenance.js
 
 // Variabel untuk mengaktifkan atau menonaktifkan mode pemeliharaan
-let maintenanceMode = true;
+let maintenanceMode = false;
 
 //Fungsi untuk menampilkan pesan pemeliharaan
 function showMaintenanceMessage() {
