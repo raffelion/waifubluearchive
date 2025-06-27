@@ -1,0 +1,135 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.div-body {
+  height: 100vh;
+  background-color: white;
+}
+
+.navbar {
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  border: 3px solid white;
+  background-color: black;
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+}
+
+.li-navbar:hover {
+  background-color: gray;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.marquee {
+  padding: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.div-content {
+  padding-bottom: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+.li-email {
+  border: 3px solid black;
+  background-color: blue;
+  list-style-type: none;
+  padding: 15px;
+  margin: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-emailto {
+  border: 0px solid white;
+  background-color: black;
+  list-style: none;
+  padding: 15px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.li-report {
+  border: 0px solid white;
+  background-color: black;
+  list-style-type: none;
+  padding: 15px;
+  margin: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1-emailbusiness {
+}
+
+.p-thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-emailbusiness {
+    color: white;
+}
+
+.footer-div{
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-footer{
+ font-size: 25px;
+ height: 20px;
+}

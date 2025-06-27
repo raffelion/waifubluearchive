@@ -1,0 +1,152 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.div-body {
+  height: 100vh;
+  background-color: white;
+}
+
+.navbar {
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  border: 3px solid white;
+  background-color: black;
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+}
+
+.li-navbar:hover {
+  background-color: gray;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.head-div1 {
+  padding: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.p-head1 {
+  padding: 15px;
+}
+
+.marquee {
+  padding: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.p-judul {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.isi-all {
+  padding: 15px;
+}
+
+.img-serika {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-hoshino {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-iroha {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-ibuki {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-ayane {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-aoba {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-momoi {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-yuuka {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-hina {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-mika {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-seia {
+  width: 35vh;
+  padding: 15px;
+}
+
+.img-shiroko {
+  width: 35vh;
+  padding: 15px;
+}
+
+.footer-div {
+  height: 50px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2-footer {
+  font-size: 25px;
+  height: 20px;
+}
