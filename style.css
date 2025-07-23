@@ -67,6 +67,16 @@ html {
   }
 }
 
+.marquee-1{
+  animation-delay: 1s;
+  animation-duration: 10s;
+  padding-top: 3%;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-family: sans-serif;
+  object-position: 10%;
+}
+
 .p-judul {
   padding: 15px;
   font-weight: bold;
